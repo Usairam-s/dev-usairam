@@ -38,14 +38,15 @@ function Project({ project }: { project: any }) {
         </CardHeader>
         <CardContent>
           <p className="text-xl font-semibold underline">Tech Stack</p>
-          <div className="flex gap-2 items-center mt-2">
+          <div className="flex flex-wrap gap-2 items-center mt-2">
             {project.tech.map((Icon: any, index: number) => (
               <div
                 key={index}
-                className="flex w-full justify-center items-center"
+                className="flex w-fit justify-center items-center"
               >
-                <div className="flex flex-col items-center ">
-                  <Icon size={24} className="mr-2" />
+                <div className="flex flex-col items-center">
+                  <Icon size={16} className="mr-2" />{" "}
+                  {/* Decrease the size of the icons */}
                   <span>{project.techNames[index]}</span>
                 </div>
               </div>
