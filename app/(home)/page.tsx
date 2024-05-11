@@ -7,7 +7,7 @@ import Projects from "./components/Projects";
 export default function Home() {
   return (
     <div className="min-h-screen  bg-black overflow-hidden">
-      <div className="dark:bg-black bg-white/5  dark:bg-grid-white/[0.2] relative">
+      <div className=" relative">
         <div className="max-w-5xl mx-auto p-5 ">
           <Navbar />
           <Herosection />
