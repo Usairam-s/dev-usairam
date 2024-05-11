@@ -8,6 +8,8 @@ function Herosection() {
     <div
       style={{
         backgroundImage: `url('/bg.jpeg')`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
       className="min-h-[70vh]  bg-cover bg-center flex-col-reverse lg:gap-0 gap-14 lg:flex-row flex items-center justify-between"
     >
