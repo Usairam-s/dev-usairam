@@ -13,7 +13,7 @@ import { MdArrowOutward } from "react-icons/md";
 function Project({ project }: { project: any }) {
   return (
     <div className="mt-24">
-      <Card className="bg-gradient-to-r from-teal-500 to-teal-400 border hover:drop-shadow-2xl text-black">
+      <Card className="bg-gradient-to-r from-slate-400 to-gray-400 border hover:drop-shadow-2xl text-black">
         <CardHeader>
           <CardTitle>
             <Image
