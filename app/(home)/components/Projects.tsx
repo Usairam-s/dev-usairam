@@ -3,6 +3,7 @@ import {
   SiClerk,
   SiFirebase,
   SiNextdotjs,
+  SiPrisma,
   SiRecoil,
   SiShadcnui,
   SiSupabase,
@@ -14,6 +15,29 @@ import Project from "./Project";
 
 function Projects() {
   const projects = [
+    {
+      title: "Home Rent and Booking system",
+      tech: [
+        SiNextdotjs,
+        SiTailwindcss,
+        SiSupabase,
+        SiPrisma,
+        SiAuth0,
+        SiShadcnui,
+      ],
+      techNames: [
+        "Next.js",
+        "Tailwind ",
+        "Supbase",
+        "Prisma",
+        "KindeAuth",
+        "Shadcn",
+      ],
+      link: "https://globalguest.vercel.app",
+      cover: "/global.png",
+      github: "https://github.com/Usairam-s/globalguest",
+      background: "bg-green-500",
+    },
     {
       title: "Personal File Storage ",
       tech: [SiNextdotjs, SiTailwindcss, SiFirebase, SiClerk, SiShadcnui],
