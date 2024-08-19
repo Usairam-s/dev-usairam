@@ -2,6 +2,7 @@ import {
   SiAuth0,
   SiClerk,
   SiFirebase,
+  SiMui,
   SiNextdotjs,
   SiPrisma,
   SiRecoil,
@@ -15,6 +16,15 @@ import Project from "./Project";
 
 function Projects() {
   const projects = [
+    {
+      title: "Zeal Business Webiste Design",
+      tech: [SiNextdotjs, SiTailwindcss, SiMui],
+      techNames: ["Next.js", "Tailwind ", "Material UI"],
+      link: "https://zealclone.vercel.app",
+      cover: "/5.png",
+      github: "https://github.com/Usairam-s/zealclone",
+      background: "bg-green-500",
+    },
     {
       title: "Home Rent and Booking system",
       tech: [
