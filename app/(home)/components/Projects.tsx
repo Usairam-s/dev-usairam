@@ -3,6 +3,7 @@ import {
   SiAuth0,
   SiClerk,
   SiFirebase,
+  SiMongodb,
   SiMui,
   SiNextdotjs,
   SiPostgresql,
@@ -47,6 +48,15 @@ function Projects() {
       link: "https://filerush.vercel.app",
       cover: "/filerush.png",
       github: "https://github.com/Usairam-s/filerush",
+      background: "bg-green-500",
+    },
+    {
+      title: "Pizza  Order App",
+      tech: [SiNextdotjs, SiTailwindcss, SiMongodb, SiStripe],
+      techNames: ["Next.js", "Tailwind ", "MongoDB", "Stripe"],
+      link: "https://dawid-food-ordering-app.vercel.app",
+      cover: "/9.png",
+      github: "https://github.com/Usairam-s",
       background: "bg-green-500",
     },
     // {
