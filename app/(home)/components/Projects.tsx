@@ -23,6 +23,15 @@ function Projects() {
   const [showAll, setShowAll] = useState(false); // Manage whether all projects are shown
 
   const projects = [
+     {
+      title: "Smart Fully AI Expense Tracker",
+      tech: [SiNextdotjs, SiPrisma, SiPostgresql],
+      techNames: ["Next.js", "Prisma ORM", "Postgresql"],
+      link: "https://aiexpensetrackerr.netlify.app",
+      cover: "/6.png",
+      github: "https://github.com/Usairam-s/aiexpensetracker",
+      background: "bg-green-500",
+    },
     {
       title: "Multi Teanant Blog SAAS",
       tech: [SiNextdotjs, SiPrisma, SiPostgresql, SiStripe],
